@@ -15,6 +15,7 @@ const Imagen = (props) =>{
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide "></button>
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active">
@@ -28,6 +29,9 @@ const Imagen = (props) =>{
     </div>
     <div className="carousel-item">
       <img src="https://chatgpt.com/backend-api/public_content/enc/eyJpZCI6Im1fNjg1YjFmOGNlN2U4ODE5MTkzOGUxZjdiMmNhNDkzYTE6ZmlsZV8wMDAwMDAwMGJlNjQ2MjJmOGU4OGMxZDc0ZTk1MDkxNiIsInRzIjoiNDg2MzMzIiwicCI6InB5aSIsInNpZyI6Ijc1ZTNmZDI3MWUwYzM1NTI3OWUwYThmNzA1MmFjM2ZlMTFjMjg5MjEwY2ZhYTllYTc1NzFiYTg1OTczMzZjOWEiLCJ2IjoiMCIsImdpem1vX2lkIjpudWxsfQ==" class="d-block w-100" alt="..."/>
+    </div>
+     <div className="carousel-item">
+      <img src="https://chatgpt.com/backend-api/public_content/enc/eyJpZCI6Im1fNjg1YjNkOTJlNmQwODE5MTg0MTgzNDViNjU1ODNiYmU6ZmlsZV8wMDAwMDAwMDg5MGM2MWY4YWM1ZjcxYTFkMTQ1ZjRiMCIsInRzIjoiNDg2MzM2IiwicCI6InB5aSIsInNpZyI6IjM1YTY1Y2M0MzQ4NjllMzlhMWMyZjZiMTYzOWNlOGEwYjFjMzM2YzU3ZTZmMzA5Y2U5OGU0MzBlZTFkNTY5MGEiLCJ2IjoiMCIsImdpem1vX2lkIjpudWxsfQ==" class="d-block w-100" alt="..."/>
     </div>
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

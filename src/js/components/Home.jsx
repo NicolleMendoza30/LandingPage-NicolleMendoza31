@@ -5,11 +5,14 @@ import Navbar from './Navbar';
 import Imagen from './Imagen';
 import Membership from './Membership';
 import Powerzone from './Powerzone';
+import Footer2 from './Footer2';
+
 
 const Home = () => {
 	return (
 		<>
 			<Navbar title="Home" />,
+			
 			<Imagen  Imagen= "https://chatgpt.com/backend-api/public_content/enc/eyJpZCI6Im1fNjg1YTAyMWRkZmZjODE5MWJkMzAyZjJlNjgwNzY0ZDU6ZmlsZV8wMDAwMDAwMDY4Yzg2MWY2YjEwODBlNDA2MGRkZTFlNyIsInRzIjoiNDg2MzEzIiwicCI6InB5aSIsInNpZyI6ImY1NTJmMjE0ZjcyYTk0MDM5OWM1ZDk0NmU0MWFmNjUyZTZmZWE1NGQ4ODY5ODAzMmQ4NzhhODlmYjY5YmZlOTYiLCJ2IjoiMCIsImdpem1vX2lkIjpudWxsfQ==" />,
 			<Membership title= "Membership"/>
 			<Jumbotron title="¡Es hora de darlo todo!" />,
@@ -44,6 +47,7 @@ const Home = () => {
 					/>
 				</div>
 			</div>
+			<Footer2/>
 			<Footer title="CopyRight" />
 		</>
 		
